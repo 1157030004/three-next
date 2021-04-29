@@ -10,7 +10,7 @@ const Page = () => {
   useStore.setState({ title: 'Box' })
   return (
     <>
-      <Box r3f route='/' />
+      <Box r3f route='/box' />
       <Instructions />
     </>
   )
